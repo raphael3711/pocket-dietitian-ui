@@ -1,44 +1,18 @@
 
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Регистрация</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Регистрация</h1>
-    <form>
-        <label>Тип питания:</label><br>
-        <select>
-            <option>Обычное</option>
-            <option>Веган</option>
-            <option>Кето</option>
-            <option>Безглютеновое</option>
-            <option>Диабетическое</option>
-        </select><br><br>
-
-        <label>Аллергены:</label><br>
-        <input type="checkbox" /> Орехи<br>
-        <input type="checkbox" /> Лактоза<br>
-        <input type="checkbox" /> Морепродукты<br>
-        <input type="checkbox" /> Глютен<br><br>
-
-        <label><input type="checkbox" /> Я кормящая мама</label><br><br>
-
-        <label>Цветовая тема:</label><br>
-        <select>
-            <option>Салатовая (по умолчанию)</option>
-            <option>Фиолетовая</option>
-            <option>Синяя</option>
-            <option>Розовая</option>
-            <option>Жёлтая</option>
-            <option>Оранжевая</option>
-            <option>Тёмная</option>
-        </select><br><br>
-
-        <button type="submit" onclick="alert('Регистрация завершена!')">Продолжить</button>
-    </form>
-</body>
-</html>
+<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Регистрация</title>
+<link rel="stylesheet" href="styles.css"></head><body>
+<h1>Регистрация</h1>
+<form>
+<label>Роль:</label>
+<select><option>Мама</option><option>Папа</option><option>Семья</option></select><br>
+<label>Цель:</label>
+<select><option>Диета</option><option>Набор веса</option><option>Спорт</option></select><br>
+<label>Тип питания:</label>
+<select><option>Обычное</option><option>Веган</option><option>Кето</option></select><br>
+<label>Аллергии:</label><input type="checkbox">Орехи <input type="checkbox">Лактоза<br>
+<label><input type="checkbox">Я кормящая мама</label><br>
+<label>Цветовая тема:</label>
+<select><option>Салатовая</option><option>Фиолетовая</option><option>Тёмная</option></select><br>
+<button onclick="location.href='main-menu.html'">Продолжить</button>
+</form></body></html>
